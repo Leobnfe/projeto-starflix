@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-white: #fff;
+    --color-dark-hover: #000000;
+    --color-yellow-hover: #e6f518;
+    --color-dark: #000;
+    --color-span: #5dff6a;
+    --color-cta-button: #5c0ae0;
+    --color-cta-button-hover: #e6f518;
+    --color-p: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+nav > a {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 0 3rem 0 0.4rem;
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+nav > a:hover {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 0 3rem 0 0.4rem;
+    color: var(--color-cta-button-hover);
+    text-decoration: none;
+    transition: all ease-in-out .5s;
+}
+
+.hero {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.7) 50%,
+        rgba(0, 0, 0, 0.9) 60%,
+        rgba(0, 0, 0, 0.9) 70%,
+        rgba(0, 0, 0, 0.9) 80%,
+        rgba(0, 0, 0, 0.9) 90%,
+        rgba(0, 0, 0, 0.9) 100%
+    ), url(/assets/img/capa5.jpeg);
+    background-size: cover;
+    background-position: top;
+    color: var(--color-white);
+    min-height: 100vh;
+    padding: 3rem 5rem;
+    text-align: left;
+}
+
+.hero h1 {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-size: 8rem;
+    font-weight: 700;
+    color: yellow;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+    color: var(--color-p);
+}
+.hero span {
+    color: var(--color-span);
+    font-weight: 700;
+}
+
+.hero strong {
+    color: var(--color-white);
+}
+
+.menu-list {
+    list-style: none;
+}
+
+.menu-list > li {
+    background-color: var(--color-white);
+    border-radius: .5rem;
+    display: inline-block;
+    margin: 1rem 1.5rem;
+    margin-left: 0;
+    height: 16rem;
+    width: 11rem;
+    top: 0;
+}
+
+.menu-list img {
+    border-radius: .5rem;
+    width: 100%;
+    background-size: cover;
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+}
+
+.cta-button, 
+.circle-button {
+    display: inline-block;
+}
+
+.cta-button {
+    background-color: var(--color-cta-button);
+    padding: .75rem 3rem;
+    margin: 0 1rem 3rem 0;
+    border-radius: 9999rem;
+    color: var(--color-white);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.cta-button:hover {
+    background-color: var(--color-cta-button-hover);
+    color: var(--color-dark-hover);
+    padding: .75rem 3rem;
+    margin: 0 1rem 3rem 0;
+    border-radius: 9999rem;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all ease-in-out .5s;
+}
+
+.circle-button {
+    border-radius: 9999rem;
+    padding: .5rem 1rem;
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.circle-button:hover {
+    border-radius: 9999rem;
+    padding: .5rem 1rem;
+    border: 1px solid var(--color-white);
+    color: var(--color-span);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: all ease-in-out .5s;
+}
+
+.hero h2 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
