@@ -38,6 +38,24 @@ A proposta visa exercitar conceitos como **estrutura semântica**, **Display: In
 
 ---
 
+## 🌐 Acesse o Site
+
+Você pode visualizar o projeto publicado através do GitHub Pages clicando no link abaixo:
+
+👉 **[Visite a Aléssio's Pizzaria 🍕](https://leobnfe.github.io/projeto-starflix/)**
+
+> ⚠️ **Observação:** Para uma visualização ideal, recomendo deixar o zoom da tela em **75%**, pois o layout ainda **não está responsivo**.
+
+---
+
+## ⚠️ Problemas ao carregar o site?
+
+Caso o site não carregue corretamente (ex: imagens ou estilos não aparecem), isso pode ser causado pelo cache do navegador.
+
+💡 **Solução:** pressione `Ctrl + F5` para forçar a atualização completa da página.
+
+---
+
 ## 📝 Licença
 
 Este projeto tem finalidade **educacional** e foi desenvolvido como parte de um exercício prático de **HTML5 e CSS3**.  
