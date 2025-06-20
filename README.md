@@ -42,7 +42,7 @@ A proposta visa exercitar conceitos como **estrutura semântica**, **Display: In
 
 Você pode visualizar o projeto publicado através do GitHub Pages clicando no link abaixo:
 
-👉 **[Visite a Aléssio's Pizzaria 🍕](https://leobnfe.github.io/projeto-starflix/)**
+👉 **[Visite StarFlix](https://leobnfe.github.io/projeto-starflix/)**
 
 > ⚠️ **Observação:** Para uma visualização ideal, recomendo deixar o zoom da tela em **75%**, pois o layout ainda **não está responsivo**.
 
