@@ -58,7 +58,7 @@ nav > a:hover {
         rgba(0, 0, 0, 0.9) 80%,
         rgba(0, 0, 0, 0.9) 90%,
         rgba(0, 0, 0, 0.9) 100%
-    ), url(/assets/img/capa5.jpeg);
+    ), url('../img/capa5.jpeg');
     background-size: cover;
     background-position: top;
     color: var(--color-white);
